@@ -10,7 +10,7 @@ let year = today.getFullYear();
 const date = document.getElementById('date')
 
 const p = document.createElement('p')
-p.innerHTML = `${dayName} <br>${monthName} ${year}`
+p.innerHTML = `${dayName}, <br><p class ="font-bold">${monthName} ${year}</p>`
 // p1.innerText = `${dayName}`
 // const p2 = document.createElement('p')
 // p2.innerText = `${monthName}`

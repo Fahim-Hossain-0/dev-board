@@ -32,10 +32,14 @@ for(const button of buttons){
        
             document.getElementById('task').innerText --
             document.getElementById('checkbox-number').innerText ++
-            const logActivity=document.getElementById('log-activity')
-            const p = document.createElement('p')
-            p.innerHTML=`                    <p class="opacity-[.7] p-4 bg-[#Fp4F7FF] my-3">You have Complete The Task Add Dark Mode at ${date}</p>`
-              logActivity.appendChild(p)     
+            const taskTitle = event.target.closest('.task-container')?.querySelector('.title');
+
+            const logActivity = document.getElementById('log-activity');
+            const p = document.createElement('p');
+            p.className = "opacity-[.7] px-4 bg-[#Fp4F7FF] py-2";
+            p.innerText = `You have completed the task Add Dark Mode`;
+
+            logActivity.appendChild(p);     
        
           }
           
@@ -65,3 +69,5 @@ const divElem = document.getElementById("body");
 
 
    
+
+
