@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- tailwind css cdn -->
+    
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <!-- daisy ui -->
+ 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0/themes.css" rel="stylesheet" type="text/css" />
-
+    <link rel="stylesheet" href="style/style.css">
     <title>Blogs</title>
 </head>
 
-<body class="">
+<body class="poppins">
     <header class="container m-auto py-5">
         <div class="navbar bg-base-100 shadow-sm rounded-xl">
             <div class="flex-1">
@@ -101,10 +101,8 @@
         </div>
     </main>
 
-    <script>
-        document.getElementById("blog_back_btn").addEventListener("click", function () {
-            window.location.href = "/index.html";
-        });
+    <script src="script/blog.js">
+       
     </script>
 </body>
 
