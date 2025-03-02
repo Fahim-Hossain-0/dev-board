@@ -23,9 +23,7 @@ for(const button of buttons){
             
             event.target.style.cursor = 'default';
             
-            for(const title of titles){
-                title.
-            }   
+               
        
             document.getElementById('task').innerText --
             document.getElementById('checkbox-number').innerText ++
