@@ -1,11 +1,16 @@
 // alert()
+document.getElementById('blog-page').addEventListener('click',function(){
+    window.location.href = '/blog.html'
+})
+
+
 const buttons = document.querySelectorAll('.completed-btn')
 const titles = document.querySelectorAll('.title')
 
-// function title(){
-//     document.querySelectorAll('.title')
+function title(){
+    document.querySelectorAll('.title')
     
-// }
+}
 
 let counts = 0
 
