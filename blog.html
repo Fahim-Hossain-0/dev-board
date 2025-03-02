@@ -43,28 +43,26 @@
                 <hr class="border-spacing-0.5 border-dashed border-gray-300">
                 <p class="bg-white p-4 rounded-b-xl">Answer-1: We can select element using 'ID', 'Class Name', 'Tag
                     Name', 'Query
-                    Selector', 'Query Selector All' etc and other many ways to select DOM element.</p>
+                    Selector', 'Query Selector All' etc.</p>
             </div>
             <div>
                 <h2 class="bg bg-white p-4 rounded-t-xl font-bold text-gray-700">Question-2: What is the difference
                     between innerHTML,
                     innerText, and textContent ?</h2>
                 <hr class="border-spacing-0.5 border-dashed border-gray-300">
-                <p class="bg-white p-4 rounded-b-xl">Answer-2: Difference Between innerHTML, innerText, and
+                <p class="bg-white p-4 rounded-b-xl">Answer-2: Difference between innerHTML, innerText, and
                     textContent is
-                    innerHTML use when you need to insert or retrieve HTML content. Use innerText when you need only
-                    visible text (ignores hidden elements). And use textContent when you need all text, including hidden
-                    text, and better performance.</p>
+                    innerHTML use when need to insert or retrieve HTML content. Use innerText when need only
+                    visible text (ignores hidden elements) and use textContent when need all text, including hidden
+                    text.</p>
             </div>
             <div>
                 <h2 class="bg bg-white p-4 rounded-t-xl font-bold text-gray-700">Question-3: What is event delegation in
                     the DOM?</h2>
                 <hr class="border-spacing-0.5 border-dashed border-gray-300">
-                <p class="bg-white p-4 rounded-b-xl">Answer-3: Event delegation is a technique in the DOM where a
-                    parent element
-                    listens for events on its child elements using event bubbling. Instead of attaching event listeners
-                    to multiple child elements, you attach a single listener to the parent and handle events using
-                    event.target.</p>
+                <p class="bg-white p-4 rounded-b-xl">Answer-3: Event delegation is a pattern in JavaScript where a parent element handles events for its child elements instead of attaching event listeners to each child individually. This is possible because of event bubbling, where an event triggered on a child element propagates (bubbles) up to its ancestors.
+
+                </p>
             </div>
             <div>
                 <h2 class="bg bg-white p-4 rounded-t-xl font-bold text-gray-700">Question-4: What is event bubbling in
@@ -84,8 +82,10 @@
                     <p class="font-semibold">Answer-5: We can create, add, and remove elements using JavaScript:</p>
                     <p>
                         <p class="font-semibold">Create an Element:</p>
-                        let createElement = document.createElement("div");<br>
-                        createElement.textContent = "Hello, World!";<br>
+                        let newDiv = document.createElement("div"); <br>
+                            newDiv.textContent = "Hello, World!";
+                            
+                            <br>
                     </p>
                     <p>
                         <p class="font-semibold">Add an Element:</p>
